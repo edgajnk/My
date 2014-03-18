@@ -1,0 +1,16 @@
+<core:View
+	controllerName="sap.ui.demo.myFiori.view.Detail"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" >
+	<Page
+		id="id1"
+		title="~DetailPage~"
+		showNavButton="true"
+		navButtonPress="handleNavButtonPress" >
+		<VBox>
+			<Text text="Cia" />
+			<Text text="Bus" />
+			<Text text="Imones" />
+		</VBox>
+	</Page>
+</core:View>

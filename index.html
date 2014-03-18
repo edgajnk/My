@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>MeetingMemo</title>
+
+		<script
+			id="sap-ui-bootstrap"
+			type="text/javascript"
+			src="resources/sap-ui-core.js"
+			type="text/javascript"  
+            data-sap-ui-libs="sap.m,sap.makit"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-resourceroots='{
+				"sap.ui.demo.myFiori": "./"
+			}' >
+		</script>
+		<script src = "phonegap.js"></script>
+		<script 
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7dUEcl3E4II4vpgC7JGLue0Q-adzm5Ns&sensor=false"  
+            type ="text/javascript">
+		</script> 
+
+		<script>
+	
+			new sap.ui.core.ComponentContainer({
+				name : "sap.ui.demo.myFiori"
+			}).placeAt("content");
+		</script>
+		<style>  
+            .myMap {  
+                height: 100%;  
+                width: 100%  
+            }  
+        </style> 
+
+	</head>
+	<body class="sapUiBody" id="content">
+	</body>
+</html>

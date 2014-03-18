@@ -1,0 +1,20 @@
+<core:View
+	controllerName="sap.ui.demo.myFiori.view.Contacts"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" >
+   <Page
+		title="Kategorijos"
+		showNavButton="true"
+		navButtonPress="handleNavButtonPress" >
+		<List>
+			<ObjectListItem
+				type="Active"
+				title="Jonas Basanavicius" 
+				>
+				<attributes>
+					<ObjectAttribute text="Jonas Basanavicius" />
+				</attributes>
+			</ObjectListItem>
+		</List>
+	</Page>
+</core:View>

@@ -1,0 +1,41 @@
+<core:View
+	height="100%"
+	controllerName="sap.ui.demo.myFiori.view.Maps"
+	 xmlns="sap.m" 
+     xmlns:core="sap.ui.core" 
+     xmlns:mvc="sap.ui.core.mvc"   
+     xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page
+		id="mainPage"
+		title="GMaps"
+		enableScrolling="false" >		  	
+		<VBox 
+            	fitContainer="true" 
+            	justifyContent="Center" 
+            	alignItems="Center"> 
+            	<HBox
+            		fitContainer="true"
+            		justifyContent="Center" 
+                	alignItems="Center">
+                	<Input
+                		id="inpSearch" 
+                    	editable="true" 
+                    	value="" 
+                   		maxLength="80"/>
+                   	<Button
+                   		id="bntSearch" 
+                    	icon="sap-icon://search" 
+                    	tap="actSearch"/>
+                    <Button
+                    	id="myLocation"
+                    	icon="sap-icon://map"
+                    	tap="showMyLocation"/>
+            	</HBox>
+            	<HBox 
+                	id="map_canvas" 
+                	fitContainer="true" 
+                	justifyContent="Center" 
+                	alignItems="Center" /> 
+		</VBox>
+	</Page>
+</core:View>

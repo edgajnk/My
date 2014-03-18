@@ -1,0 +1,25 @@
+<core:View
+	controllerName="sap.ui.demo.myFiori.view.Master"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" >
+	<Page
+		title="Kategorijos" >
+		<List>
+			<StandardListItem
+				type="Active"
+				icon="sap-icon://leads"
+				press="handleListItemPress"
+				title="Imones" />
+			<StandardListItem
+				icon="sap-icon://map"
+				type="Active"
+				press="goToMaps"
+				title="Žemėlapiai" />
+			<StandardListItem
+				icon="sap-icon://customer-and-contacts"
+				type="Active"
+				press="goToContacts"
+				title="Kontaktai" />
+		</List>
+		</Page>
+</core:View>
